@@ -4,5 +4,5 @@ import { user } from 'features/core/reducers';
 
 export const rootReducer = combineReducers({
   user,
-  form: formReducer
+  form: formReducer,
 });
